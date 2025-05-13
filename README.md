@@ -7,6 +7,6 @@ configs = {"fs.azure.account.auth.type": "OAuth",
 
 
 dbutils.fs.mount(
-source = "abfss://tokyo-olympic-data@tokyoolympicdata.dfs.core.windows.net", # contrainer@storageacc
-mount_point = "/mnt/tokyoolymic",
+source = "abfss://container name@storage account name .dfs.core.windows.net", # contrainer@storageacc
+mount_point = "/mnt/retaildomain",
 extra_configs = configs)
